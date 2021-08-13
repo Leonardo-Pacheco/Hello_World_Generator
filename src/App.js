@@ -9,6 +9,7 @@ function App() {
 
     }
 
+    console.log("asdasd");
     return (
       <div className="body">
         <HelloWorld getRandom={getRandom}/>
