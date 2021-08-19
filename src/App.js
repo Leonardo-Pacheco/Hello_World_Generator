@@ -6,10 +6,8 @@ function App() {
 
     function getRandom(array){
        return Math.floor(Math.random() * array.length);
-
     }
 
-    console.log("asdasd");
     return (
       <div className="body">
         <HelloWorld getRandom={getRandom}/>
