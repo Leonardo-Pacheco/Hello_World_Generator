@@ -121,14 +121,11 @@ function HelloWorld({ getRandom }) {
 
     function newRandomIndex(){
             if(randomIndex === lastIndex){
-                console.log("repetiu", randomIndex, lastIndex)
                 return getRandom(helloWorlds)
             }
-            console.log("nao repetiu")
             return getRandom(helloWorlds)
     }
-
-    console.log(randomIndex)
+    
     return (
         <div className="container">
             <button className="container-button" onClick={e => {setRandomIndex(newRandomIndex())
